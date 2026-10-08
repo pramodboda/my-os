@@ -8,6 +8,9 @@ const fundData = [
   { id: 3, fund_name: "Parag Parikh Flexi Cap - Direct-Growth" },
   { id: 4, fund_name: "Aditya Birla Sun Life Liquid Fund-Direct Growth" },
   { id: 5, fund_name: "ICICI Gold ETF - Stock" },
+  { id: 6, fund_name: "LIC" },
+  { id: 7, fund_name: "PPF" },
+  { id: 8, fund_name: "EPFO" },
 ];
 export default function MyFunds() {
   return (

@@ -17,7 +17,7 @@ const ProCard = ({
   children,
 }: ProCardProps) => {
   return (
-    <Card mode="elevated">
+    <Card mode="elevated" style={{marginBottom: "15px"}}>
       <Card.Title title={title} subtitle={subtitle} left={LeftContent} />
       <Card.Content>
         <Text variant="bodySmall">{children}</Text>

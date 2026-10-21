@@ -33,12 +33,12 @@ function getDevMenuHint() {
 
 export default function HomeScreen() {
   return (
-    <>
+    <div style={{marginTop:"80px"}}>
     
       <MyFunds />
       <CommonSFDInterviewRounds />
       
-    </>
+    </div>
 
     // <ThemedView style={styles.container}>
     //   <SafeAreaView style={styles.safeArea}>

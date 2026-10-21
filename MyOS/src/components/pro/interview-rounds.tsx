@@ -7,7 +7,7 @@ import ProCard from "../../components/ui/pro-card";
 
 export default function CommonSFDInterviewRounds() {
   return (
-    <ProCard title="SeniorFrontendDeveloper" subtitle="Interview Rounds">
+    <ProCard title="Senior Frontend Developer" subtitle="Interview Rounds">
       <List.AccordionGroup>
       {seniorFrontendDeveloper_InterviewRounds.map((ir) => (
         <List.Accordion

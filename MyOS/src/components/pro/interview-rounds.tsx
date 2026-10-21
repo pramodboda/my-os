@@ -12,7 +12,7 @@ export default function CommonSFDInterviewRounds() {
     {
       seniorFrontendDeveloper_InterviewRounds.map((ir) => {
         return (
-          <List.Accordion title={ir.round_name} id={ir.id}>
+          <List.Accordion key={ir.round_name} title={ir.round_name} id={ir.id}>
             <List.Item title="Item 1" />
           </List.Accordion>
         )

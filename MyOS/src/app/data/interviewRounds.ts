@@ -1,5 +1,6 @@
 export const seniorFrontendDeveloper_InterviewRounds = [
     {
+        id: 1,
         round_name: "Round 1 — Recruiter / HR screening",
         ex: [
             "Experience, current role and reason for switching.",
@@ -7,8 +8,12 @@ export const seniorFrontendDeveloper_InterviewRounds = [
             "Notice period, current CTC, expected CTC and location.",
         ]
     },
-    { round_name: "Round 2 — DSA Coding/ Problem-solving" },
     {
+        id: 2,
+        round_name: "Round 2 — DSA Coding/ Problem-solving"
+    },
+    {
+        id: 3,
         round_name: "Round 3 — JavaScript Concepts",
         ex: [
             "Closures, promises, async/await, event loop and this.",
@@ -17,6 +22,7 @@ export const seniorFrontendDeveloper_InterviewRounds = [
         ]
     },
     {
+        id: 4,
         round_name: "Round 4 — React Concepts and frontend technical deep dive",
         ex: [
             "React hooks, rendering, state management and component design.",
@@ -26,6 +32,7 @@ export const seniorFrontendDeveloper_InterviewRounds = [
         ]
     },
     {
+        id: 5,
         round_name: "Round 5 — Frontend machine coding / practical assignment(JS/ React coding)",
         ex: [
             "Build a searchable, sortable, paginated table or autocomplete.",
@@ -35,6 +42,7 @@ export const seniorFrontendDeveloper_InterviewRounds = [
         ]
     },
     {
+        id: 6,
         round_name: "Round 6 — Frontend system design and architecture",
         ex: [
             "Design a scalable dashboard, analytics application or large data table.",
@@ -44,6 +52,7 @@ export const seniorFrontendDeveloper_InterviewRounds = [
         ]
     },
     {
+        id: 7,
         round_name: "Round 7 — Hiring manager / engineering leadership",
         ex: [
             "Deep dive into your actual projects and individual contributions.",
@@ -53,6 +62,7 @@ export const seniorFrontendDeveloper_InterviewRounds = [
         ]
     },
     {
+        id: 8,
         round_name: "Round 8 — Final HR / compensation discussion",
         ex: [
             "- Salary negotiation, offer details, notice period and joining date.",

@@ -9,7 +9,8 @@ import { ThemedView } from "@/components/themed-view";
 import { WebBadge } from "@/components/web-badge";
 import { BottomTabInset, MaxContentWidth, Spacing } from "@/constants/theme";
 
-import MyFunds from "@/components/myfunds";
+import MyFunds from "@/components/pro/myfunds";
+// import CommonSFDInterviewRounds from "@/components/pro/interview-rounds";
 
 function getDevMenuHint() {
   if (Platform.OS === "web") {

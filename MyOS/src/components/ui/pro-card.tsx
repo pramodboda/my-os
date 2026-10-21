@@ -19,10 +19,7 @@ const ProCard = ({
   return (
     <Card mode="elevated">
       <Card.Title title={title} subtitle={subtitle} left={LeftContent} />
-
       <Card.Content>
-        <Text variant="titleLarge">{title}</Text>
-        <Text variant="bodyMedium">Card content</Text>
         <Text variant="bodySmall">{children}</Text>
       </Card.Content>
     </Card>

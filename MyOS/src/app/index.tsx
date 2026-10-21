@@ -10,7 +10,7 @@ import { WebBadge } from "@/components/web-badge";
 import { BottomTabInset, MaxContentWidth, Spacing } from "@/constants/theme";
 
 import MyFunds from "@/components/pro/myfunds";
-// import CommonSFDInterviewRounds from "@/components/pro/interview-rounds";
+import CommonSFDInterviewRounds from "@/components/pro/interview-rounds";
 
 function getDevMenuHint() {
   if (Platform.OS === "web") {
@@ -33,7 +33,13 @@ function getDevMenuHint() {
 
 export default function HomeScreen() {
   return (
-    <MyFunds />
+    <>
+    
+      <MyFunds />
+      <CommonSFDInterviewRounds />
+      
+    </>
+
     // <ThemedView style={styles.container}>
     //   <SafeAreaView style={styles.safeArea}>
     //     <ThemedView style={styles.heroSection}>

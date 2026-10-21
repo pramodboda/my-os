@@ -1,4 +1,4 @@
-import ProCard from "../components/ui/pro-card";
+import ProCard from "../../components/ui/pro-card";
 
 import { List } from "react-native-paper";
 
